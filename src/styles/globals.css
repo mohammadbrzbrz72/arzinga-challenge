@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.layout {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1280px;
+  padding-inline: 40px;
+}
+
+@media screen and (max-width: 640px) {
+  .layout {
+    padding-inline: 25px;
+  }
+}
